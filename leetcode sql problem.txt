@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+SELECT Courses.class FROM Courses GROUP by Courses.class having Count(Courses.class) > 1;
